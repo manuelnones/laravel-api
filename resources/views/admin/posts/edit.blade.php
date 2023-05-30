@@ -72,8 +72,8 @@
                 </div>
             </div>
 
-            <div class="btn-container d-flex justify-content-end">
-                <button type="submit" class="btn btn-primary">Modifica</button>
+            <div class="btn-container d-flex justify-content-end mb-4">
+                <button type="submit" class="btn btn-primary text-light">Modifica</button>
             </div>
         </form>
     </main>

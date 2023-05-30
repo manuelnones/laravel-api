@@ -22,7 +22,7 @@
     @vite(['resources/js/app.js'])
 </head>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="light">
     <div id="app">
 
         <nav class="navbar navbar-expand-md shadow-sm">

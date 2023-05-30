@@ -1,16 +1,16 @@
 @extends('layouts/admin')
 
 @section('content')
-<div class="container text-center mt-4">
+<div class="container mt-5">
     <h1>{{$post->title}}</h1>
 
     @if ($post->post_image)
-    <img src="{{asset('storage/' . $post->post_image)}}" alt="" class="w-50 h-50 my-4">
+    <img src="{{asset('storage/' . $post->post_image)}}" alt="" class="w-25 my-4">
     @endif
 
-    <div class="px-4">Categoria: {{$post->type->name ?? 'nessuna'}}</div>
+    <div>Categoria: {{$post->type->name ?? 'nessuna'}}</div>
 
-    <div class="d-flex justify-content-center mt-3 gap-2">
+    <div class="d-flex mt-3 gap-2">
         @foreach ($post->technologies as $technology)
         <span class="badge rounded-pill" style="background-color: {{$technology->color}}">{{$technology->name}}</span>
         @endforeach

@@ -68,7 +68,7 @@
             </div>
 
             <div class="btn-container d-flex justify-content-end mb-4">
-                <button type="submit" class="btn btn-primary">Aggiungi</button>
+                <button type="submit" class="btn btn-primary text-light">Aggiungi</button>
             </div>
 
         </form>
